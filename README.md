@@ -16,3 +16,11 @@ rails new Rails7Demo --javascript=importmap
 cd Rails7Demo
 
 rails g controller home index
+
+rails g scaffold Post title content:text
+
+rails action_text:install
+
+./bin/importmap pin local-time
+
+./bin/importmap pin local-time --download
