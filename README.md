@@ -26,3 +26,5 @@ rails action_text:install
 ./bin/importmap pin local-time --download
 
 rails g resource comment post:references content:text
+
+rails g mailer comments submitted
